@@ -24,5 +24,6 @@ namespace HelpfulCommands.Data.Persistence
         }
         public DbSet<Platform> Platforms { get; set; }
         public DbSet<Category> Category { get; set; }
+        public DbSet<HelpfulCommands.Models.Command> Command { get; set; }
     }
 }
